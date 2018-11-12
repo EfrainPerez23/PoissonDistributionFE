@@ -14,7 +14,7 @@ export class PoissonService {
   public constructor(private httpClient: HttpClient) { }
 
 
-  public getPoissonDistribution(values: {size: number, miu: number}): Observable<Poisson> {
+  public getPoissonDistribution(values: {size: number, lambda: string}): Observable<Poisson> {
     return this.httpClient.post<Poisson>(`${environment.apiUrl}/${this.poissonPath}`, values);
   }
 }

@@ -4,7 +4,5 @@ export interface Poisson {
 
 export interface PoissonValues {
   x: number;
-  poisson: number;
-  accumulate: number;
-  poissonValue: number;
+  y: number;
 }
