@@ -1,5 +1,5 @@
 export interface Poisson {
-  poissonValues: any[];
+  poissonValues: PoissonValues[];
 }
 
 export interface PoissonValues {
