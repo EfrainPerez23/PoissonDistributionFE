@@ -1,6 +1,22 @@
 # Poisson
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.
+
+# Pasos para configurar el proyecto #
+
+ 
+* Instalar node js 10+. Esto dependera del sistema operativo
+  * **Windows:** utilizar este link [NodeJS](https://nodejs.org)
+  * **Mac OS:** utilizar este link [NodeJS](https://nodejs.org)
+  * **Linux:** 
+        `$ sudo apt-get install nodejs npm`
+* Luedo de instalar nodeJs, se debe instalar globalmente `angular-cli`. Utilizar las siguientes lineas de comando
+  ```
+    npm install -g @angular/cli
+  ```
+* Para ejecutar el front end debe localizarse en la carpeta raiz del proyecto ( a nivel del archivo `package.json` ) debe       ejecutar la siguiente linea: `npm install`
+
+* Finalmente para ejectuar el programa utilizar la siguiente linea de comando: `ng s --o`
 
 ## Development server
 
